@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<PackageId>kr.bbon.Data.Abstractions</PackageId>
+		<Title>kr.bbon.Data.Abstractions</Title>
+		<Description>kr.bbon.Data.Abstractions</Description>
+		<PackageTags>dotnet data repository entity bbonkr kr.bbon bbon bbon.kr</PackageTags>
+		<RepositoryUrl>https://github.com/bbonkr/kr.bbon.Data</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../../images/icon.png" Pack="true" PackagePath="/" />
+		<None Include="../../docs/kr.bbon.Data.Abstractions/README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\kr.bbon.Core\kr.bbon.Core.csproj" />
+	</ItemGroup>
+</Project>

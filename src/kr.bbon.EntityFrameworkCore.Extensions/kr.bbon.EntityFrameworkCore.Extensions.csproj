@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<PackageId>kr.bbon.EntityFrameworkCore.Extensions</PackageId>
+		<Title>kr.bbon.EntityFrameworkCore.Extensions</Title>
+		<Description>Provider EntityFrameworkCore extensions.</Description>
+		<PackageTags>ef efcore kr.bbon bbon bbon.kr</PackageTags>
+		<RepositoryUrl>https://github.com/bbonkr/kr.bbon.EntityFrameworkCore.Extensions.git</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../../images/icon.png" Pack="true" PackagePath="/" />
+		<None Include="../../docs/kr.bbon.EntityFrameworkCore.Extensions/README.md" pack="true" PackagePath="/" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" />
+	</ItemGroup>		
+	<ItemGroup>
+		<ProjectReference Include="..\kr.bbon.Core\kr.bbon.Core.csproj" />
+	</ItemGroup>
+</Project>

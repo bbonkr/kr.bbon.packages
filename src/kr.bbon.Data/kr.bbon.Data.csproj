@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<PackageId>kr.bbon.Data</PackageId>
+		<Title>kr.bbon.Data</Title>		
+		<Description>kr.bbon.Data</Description>
+		<PackageTags>dotnet data repository ef entityframeworkcore entity bbonkr kr.bbon bbon bbon.kr</PackageTags>
+		<RepositoryUrl>https://github.com/bbonkr/kr.bbon.Data</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>		
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../../images/icon.png" Pack="true" PackagePath="/" />
+		<None Include="../../docs/kr.bbon.Data/README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" />			
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+		<PackageReference Include="Microsoft.Extensions.Options" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\kr.bbon.EntityFrameworkCore.Extensions\kr.bbon.EntityFrameworkCore.Extensions.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\kr.bbon.Data.Abstractions\kr.bbon.Data.Abstractions.csproj" />
+	</ItemGroup>
+</Project>

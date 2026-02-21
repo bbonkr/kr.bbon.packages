@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/examples/">
+    
+    <Project Path="example/SampleNet8App/SampleNet8App.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/kr.bbon.AspNetCore/kr.bbon.AspNetCore.csproj" />
+    <Project Path="src/kr.bbon.Core/kr.bbon.Core.csproj" />
+    <Project Path="src/kr.bbon.Data.Abstractions/kr.bbon.Data.Abstractions.csproj" />
+    <Project Path="src/kr.bbon.Data/kr.bbon.Data.csproj" />
+    <Project Path="src/kr.bbon.EntityFrameworkCore.Extensions/kr.bbon.EntityFrameworkCore.Extensions.csproj" />
+    <Project Path="src/kr.bbon.Services/kr.bbon.Services.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/kr.bbon.Core.Tests/kr.bbon.Core.Tests.csproj" />
+    <Project Path="tests/kr.bbon.Data.Tests/kr.bbon.Data.Tests.csproj" />
+    <Project Path="tests/kr.bbon.Services.Tests/kr.bbon.Services.Tests.csproj" />
+  </Folder>
+</Solution>

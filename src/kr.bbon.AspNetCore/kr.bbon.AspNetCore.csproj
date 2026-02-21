@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<PackageId>kr.bbon.AspNetCore</PackageId>
+		<Title>kr.bbon.AspNetCore</Title>		
+		<Description>Helper for ASP.NET Core</Description>
+		<PackageTags>dotnet aspnet aspnetcore kr.bbon bbon bbon.kr</PackageTags>
+		<RepositoryUrl>https://github.com/bbonkr/kr.bbon.AspNetCore.git</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<PropertyGroup>
+		<OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../../images/icon.png" Pack="true" PackagePath="/" />
+		<None Include="../../docs/kr.bbon.AspNetCore.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" />
+		<PackageReference Include="Microsoft.OpenApi" />
+		<PackageReference Include="Microsoft.Extensions.Options" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\kr.bbon.Core\kr.bbon.Core.csproj" />
+	</ItemGroup>
+</Project>

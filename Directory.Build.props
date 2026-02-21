@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Pon Cheol Ku (bbon@live.com)</Authors>
+    <Company>bbon.kr</Company>
+    <Copyright>bbon.kr. All rights reserved.</Copyright>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>true</IsPackable>
+    <Nullable>enable</Nullable>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>latest</LangVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+    <PropertyGroup Condition="'$(IsPackable)' == 'true'">
+        <VersionPrefix>2.0.0</VersionPrefix>
+        <VersionSuffix Condition="'$(Configuration)' == 'Debug'">preview</VersionSuffix>
+    </PropertyGroup>      
+</Project>

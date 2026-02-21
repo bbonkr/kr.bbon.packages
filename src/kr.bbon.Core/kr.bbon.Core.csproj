@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<PackageId>kr.bbon.Core</PackageId>
+		<Title>kr.bbon.Core</Title>
+		<Description>Helper for .NET</Description>
+		<PackageTags>dotnet aspnet aspnetcore kr.bbon bbon bbon.kr</PackageTags>
+		<RepositoryUrl>https://github.com/bbonkr/kr.bbon.Core</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="DataSets\DataSources\Languages.json" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="../../images/icon.png" Pack="true" PackagePath="/" />
+		<None Include="../../docs/kr.bbon.Core/README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="TimeZoneConverter" />
+	</ItemGroup>
+</Project>
